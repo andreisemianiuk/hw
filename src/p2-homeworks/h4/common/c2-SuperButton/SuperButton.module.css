@@ -1,0 +1,21 @@
+.default {
+  background-color: darkcyan;
+  color: white;
+  outline: transparent;
+  border: 1px solid slateblue;
+}
+
+.default:hover {
+  background-color: slateblue;
+  transition-duration: 0.8s;
+}
+
+.default:disabled {
+  opacity: 0.7;
+  background-color: grey;
+}
+
+.red {
+  color: white;
+  background: red;
+}

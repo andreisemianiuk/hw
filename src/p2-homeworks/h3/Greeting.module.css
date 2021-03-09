@@ -1,0 +1,37 @@
+.main {
+  margin: 20px;
+  padding: 5px;
+}
+
+.inputClass {
+  margin: 5px;
+}
+
+.btn {
+  margin: 5px;
+  color: white;
+  background-color: red;
+  outline: none;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.usersCount {
+  margin: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: inherit;
+}
+
+.error {
+  border: 2px solid red;
+  outline: transparent;
+}
+
+.errorMessage {
+  height: 20px;
+  color: firebrick;
+}

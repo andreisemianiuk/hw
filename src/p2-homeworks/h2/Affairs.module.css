@@ -1,0 +1,46 @@
+.filters {
+  margin-left: 20px;
+}
+.filters > button {
+  margin: 5px;
+  background-color: aqua;
+}
+
+.affair {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.name {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: blue;
+}
+
+.priority {
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orangered;
+}
+
+.green {
+  color: green;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 20px;
+}
