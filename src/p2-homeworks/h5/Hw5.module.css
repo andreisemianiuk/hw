@@ -46,3 +46,25 @@
 .activeLink {
 	color: gold;
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.number {
+	font-size: 10em;
+	color: red;
+}
+
+.text {
+	color: red;
+	font-size: 3em;
+}
+
+.smile {
+	color: red;
+	font-size: 2em;
+}
