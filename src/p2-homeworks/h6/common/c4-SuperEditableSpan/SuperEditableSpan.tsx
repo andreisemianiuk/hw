@@ -26,7 +26,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     
     ...restProps// все остальные пропсы попадут в объект restProps
   }
-) => {debugger
+) => {
   const [editMode, setEditMode] = useState<boolean>(false)
   const { children, onDoubleClick, className, ...restSpanProps } = spanProps || {}
   
