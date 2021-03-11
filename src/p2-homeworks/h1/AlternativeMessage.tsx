@@ -8,7 +8,7 @@ function AlternativeMessage() {
       avatar:
         'http://abali.ru/wp-content/uploads/2014/02/gerb_belarus_1991_pogona-241x300.png',
       name: 'Andrei',
-      message: "I've done homework from Ignat)",
+      message: "I've done homework!",
       time: new Date().toLocaleTimeString(),
     },
   ])
