@@ -1,7 +1,30 @@
+.label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .checkbox {
-  background-color: crimson;
+  /*appearance: none;*/
+
+  width: 15px;
+  height: 15px;
+  /*background: white;*/
+  /*border: 1px solid cadetblue;*/
+  /*border-radius: 2px;*/
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  /*appearance: none;*/
+  /*background-image: url("check.png");*/
+}
+
+.checkbox:focus {
+  outline: 1px solid darkcyan;
 }
 
 .spanClassName {
-  color: firebrick;
+  color: navy;
 }
