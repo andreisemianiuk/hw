@@ -1,0 +1,14 @@
+.span {
+	position: relative;
+	font-weight: bold;
+	padding-left: 18px;
+	margin-left: 10px;
+}
+
+.span::before {
+	content: url("pen.png");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
