@@ -1,0 +1,11 @@
+.superSelect {
+	width: 100px;
+	font-weight: bold;
+	background-color: #99ff99;
+	margin: 5px;
+	padding: 2px 5px;
+	border: 2px solid darkcyan;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+}
