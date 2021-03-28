@@ -1,0 +1,20 @@
+.user {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	width: 250px;
+	margin: 10px;
+	border: 2px solid darkcyan;
+	border-radius: 3px;
+	color: crimson;
+	background-color: aquamarine;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.buttonsWrapper {
+	display: flex;
+	justify-content: space-between;
+	width: fit-content;
+	padding-left: 20px;
+}
