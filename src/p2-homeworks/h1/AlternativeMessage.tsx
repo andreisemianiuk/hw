@@ -1,38 +1,37 @@
-import React, { useState } from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import styles from './Message.module.css'
 import Message, { MessageDataType } from './Message'
+import ava from './images/1.jpg'
 
 function AlternativeMessage() {
   let [arr, setArr] = useState<MessageDataType[]>([
     {
-      avatar:
-        'http://abali.ru/wp-content/uploads/2014/02/gerb_belarus_1991_pogona-241x300.png',
+      avatar: ava,
       name: 'Andrei',
-      message: "I've done homework!",
-      time: new Date().toLocaleTimeString(),
-    },
+      message: 'I\'ve done homework!',
+      time: new Date().toLocaleTimeString()
+    }
   ])
   let [value, setValue] = useState<string>('')
-
-  const onChangeHandler = (e: any): void => {
+  
+  const onChangeHandler = (e: ChangeEvent<HTMLTextAreaElement>): void => {
     let text = e.currentTarget.value
     setValue(text)
   }
-
+  
   const onClickHandler = () => {
     setArr([
       ...arr,
       {
-        avatar:
-          'http://abali.ru/wp-content/uploads/2014/02/gerb_belarus_1991_pogona-241x300.png',
+        avatar: ava,
         name: 'Andrei',
         message: value,
-        time: new Date().toLocaleTimeString(),
-      },
+        time: new Date().toLocaleTimeString()
+      }
     ])
     setValue('')
   }
-
+  
   return (
     <div>
       {arr.map((i) => (

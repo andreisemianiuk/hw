@@ -22,6 +22,7 @@
   margin: 5px;
   overflow: hidden;
   cursor: pointer;
+  z-index: 98;
 }
 
 .button::after {
@@ -76,9 +77,9 @@
 }
 
 .button:disabled::after {
-  z-index: -1;
+  z-index: 97;
 }
 
 .button:disabled::before {
-  z-index: -1;
+  z-index: 97;
 }
